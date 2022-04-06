@@ -1,7 +1,6 @@
 // Programming quick sheet (javascript)
 
 // Tipos de valores
-
 	1 // Integer / Number
 	2.3 // Decimal / Number
 	"A" // String
