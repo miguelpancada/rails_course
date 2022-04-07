@@ -8,7 +8,9 @@
 	false // Boolean
 	[1, "A", [1,2], {a: 1, b: "b"}] // Array
 	{a: 1, b: "b", c: [1,2], d: {a: 1, b:"b"}} // Object/Hash/Dictionary
-
+	// String
+		.slice(beginIndex); // retorna uma nova string a começar do beginIndex até ao fim da strin goriginal
+		.slice(beginIndex, endIndex); // retorna uma nova string que começa do beginIndex e acaba no endIndex
 	// Array functions
 		.length // propriedade que retorna o tamanho do array
 		.push(param1) // adiciona o param1 ao fim da lista e retorna o novo length do array
