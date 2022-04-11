@@ -18,6 +18,7 @@
 		.unshift(param1) // adiciona o param1 ao inicio da lista e retorna o novo tamanho do array
 		.shift() // remove o primeiro elemento da lista e retorna o novo length do array
 		.indexOf(param1) // procura se o elemento existe no array, se sim retorna a posição do array, senaõ retorna -1
+		.splice(startIndex, totalMembers) // modifica o array original, começando no startIndex remove totalMembers e retorna um novo array com os elementos removidos 
 	// Object/Hash/Dictionary functions
 		.hasOwnProperty(param1) // retorna true / false consoante o param1 existe / não existe como propriedade
 		delete {a: 1, b: "b"}[param1] // delete NÃO É uma function!! remove o par propriedade: valor 
