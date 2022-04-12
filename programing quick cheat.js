@@ -11,6 +11,7 @@
 	// String
 		.slice(beginIndex); // retorna uma nova string a começar do beginIndex até ao fim da string original
 		.slice(beginIndex, endIndex); // retorna uma nova string que começa do beginIndex e acaba no endIndex
+		.split(param1); // retorna um array em que cada elemento é uma subtring da string original. O param1 serve de separador par aa divisão em substrings
 	// Array functions
 		.length // propriedade que retorna o tamanho do array
 		.push(param1) // adiciona o param1 ao fim da lista e retorna o novo length do array
